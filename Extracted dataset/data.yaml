@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['person_left', 'person_right', 'person_with_luggage_left', 'person_with_luggage_right']
+
+roboflow:
+  workspace: fangs-workspace-hj04l
+  project: c389-team2-ca1-combined-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fangs-workspace-hj04l/c389-team2-ca1-combined-dataset/dataset/1
